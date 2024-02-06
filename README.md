@@ -9,7 +9,9 @@ Architecture Diagram:
 ![Alt text](/images/diagram.png)
 
 Step 1: Create two VPCs with non-overlapping cidrs.
+
 Step 2: Host EC2 instances in each VPC
+
 Step 3: Create a VPC peering connection with routes between two VPCs
 
 Terraform Plan Output:
